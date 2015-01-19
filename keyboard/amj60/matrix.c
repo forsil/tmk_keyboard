@@ -57,8 +57,6 @@ uint8_t matrix_cols(void)
 
 void matrix_init(void)
 {
-    debug_enable=true;
-    debug_matrix=true;
     MCUCR |= (1<<7);
     MCUCR |= (1<<7);
     MCUCR |= (1<<7);
