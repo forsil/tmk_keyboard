@@ -25,7 +25,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    geekhack
 #define PRODUCT         GH60
-#define DESCRIPTION     t.m.k. keyboard firmware for GH60
+#define DESCRIPTION     t.m.k. keyboard firmware for GH60 rev AMJ PRO2
 
 /* key matrix size */
 #define MATRIX_ROWS 5
