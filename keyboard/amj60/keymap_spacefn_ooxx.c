@@ -95,7 +95,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 const uint16_t PROGMEM fn_actions[] = {
     [0] = ACTION_LAYER_TAP_KEY(1, KC_SPACE),                                // SPACE LAYER
     [1] = ACTION_LAYER_MOMENTARY(2),                                        // MOUSE LAYER
-    [2] = ACTION_MODS_KEY(MOD_LALT|MOD_LGUI, KC_L),                         // LaunchCenter
-    [3] = ACTION_MODS_KEY(MOD_LSFT, KC_GRV),                                // tilde
-    [4] = ACTION_MODS_KEY(MOD_LCTL, KC_UP),                                 // Mission Control
+    [2] = ACTION_MODS_KEY(MOD_LSFT, KC_GRV),                                // tilde
+    [3] = ACTION_MODS_KEY(MOD_LCTL, KC_UP),                                 // Mission Control
+    [4] = ACTION_MODS_KEY(MOD_LALT|MOD_LGUI, KC_L),                         // LaunchCenter
 };
