@@ -30,9 +30,9 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * ,-----------------------------------------------------------.
      * |`  | F1| F2| F3| F4| F5| F6| F7| F8| F9|F10|F11|F12|Del|Del|
      * |-----------------------------------------------------------|
-     * |     |   |PgU|   |   |   |   |   | Up|   |Psc|Slk|Pau|Ins  |
+     * |     |   |PgU|   |   |   |   |   |   |   |Psc|Slk|Pau|Ins  |
      * |-----------------------------------------------------------|
-     * |      |Hom|PgD|End|   |   |   |Lef|Dow|Rig|   |   |        |
+     * |      |Hom|PgD|End|   |   |Lef|Dow|Up |Rig|   |   |Enter   |
      * |-----------------------------------------------------------|
      * |        |   |   |   |   |Spc|   |`  |~  |   |   |     |    |
      * |-----------------------------------------------------------|
@@ -41,8 +41,8 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
     KEYMAP_HHKB(
         GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, DEL, DEL, \
-        TRNS,TRNS,PGUP,TRNS,TRNS,TRNS,TRNS,TRNS,UP,  TRNS,PSCR,SLCK,PAUS,INS,  \
-        TRNS,HOME,PGDN,END, TRNS,TRNS,TRNS,LEFT,DOWN,RGHT,TRNS,TRNS,     TRNS, \
+        TRNS,TRNS,PGUP,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,PSCR,SLCK,PAUS,INS,  \
+        TRNS,HOME,PGDN,END, TRNS,TRNS,LEFT,DOWN,UP,  RGHT,TRNS,TRNS,     PENT, \
         TRNS,TRNS,TRNS,TRNS,TRNS,SPC, TRNS,GRV, FN2, TRNS,TRNS,     TRNS,TRNS, \
         TRNS,TRNS,TRNS,          TRNS,                    TRNS,TRNS,TRNS,TRNS),
 
