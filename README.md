@@ -46,6 +46,7 @@ You can find some keyboard specific projects under `converter` and `keyboard` di
 ### keyboard
 * [hhkb](keyboard/hhkb/)                    - [Happy Hacking Keyboard pro][GH_hhkb] **my main board**
 * [gh60](keyboard/gh60/)                    - [GH60] DIY 60% keyboard [prototype][GH60_proto] **my second board**
+* [amj60](keyboard/amj60/)                  - [GH60] DIY 60% keyboard [prototype][GH60_proto] rev AMJ PRO2 custom
 * [hbkb](keyboard/hbkb/)                    - [Happy Buckling spring keyboard][GH_hbkb](IBM Model M 60% mod)
 * [hid_liber](keyboard/hid_liber/)          - [HID liberation][HID_liber] controller (by alaricljs)
 * [phantom](keyboard/phantom/)              - [Phantom] keyboard (by Tranquilite)
